@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crave'd - Food Ordering</title>
+
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         NAVIGATION BAR
+    ====================================================== -->
+
+    <header>
+
+        <div class="logo">
+            CRAVE<span>'D</span>
+        </div>
+
+
+        <nav>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#menu">
+                Menu
+            </a>
+
+            <a href="#categories">
+                Categories
+            </a>
+
+            <a href="#cart">
+                Cart 🛒
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HOME / HERO SECTION
+    ====================================================== -->
+
+    <section class="hero" id="home">
+
+
+        <div class="hero-text">
+
+
+            <p class="small-heading">
+                Cravings, Satisfied.
+            </p>
+
+
+            <h1>
+
+                TASTE THE<br>
+
+                EXTRAORDINARY.<br>
+
+                <span>
+                    UNFORGETTABLE BITES.
+                </span>
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Discover our chef-inspired menu,
+                crafted for a delicious dining
+                experience. Fresh ingredients,
+                bold flavours and unforgettable bites.
+
+            </p>
+
+
+            <a href="#menu" class="menu-button">
+
+                EXPLORE MENU →
+
+            </a>
+
+
+        </div>
+
+
+
+        <div class="hero-image">
+
+
+            <div class="circle"></div>
+
+
+            <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80"
+                alt="Delicious Burger">
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOD CATEGORIES
+    ====================================================== -->
+
+    <section class="categories" id="categories">
+
+
+        <div class="category-container">
+
+
+            <!-- BURGERS -->
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🍔
+                </div>
+
+                <h3>
+                    Burgers
+                </h3>
+
+                <p>
+                    Juicy & Cheesy
+                </p>
+
+            </div>
+
+
+
+            <!-- SIDES -->
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🍟
+                </div>
+
+                <h3>
+                    Sides
+                </h3>
+
+                <p>
+                    Fresh & Crispy
+                </p>
+
+            </div>
+
+
+
+            <!-- PIZZA -->
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🍕
+                </div>
+
+                <h3>
+                    Pizza
+                </h3>
+
+                <p>
+                    Hot & Delicious
+                </p>
+
+            </div>
+
+
+
+            <!-- DRINKS -->
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🥤
+                </div>
+
+                <h3>
+                    Drinks
+                </h3>
+
+                <p>
+                    Cool & Refreshing
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOD MENU
+    ====================================================== -->
+
+    <section class="menu" id="menu">
+
+
+        <div class="section-title">
+
+
+            <p>
+                Fan Favorites
+            </p>
+
+
+            <h2>
+                CUSTOMER <span>LOVED</span>
+            </h2>
+
+
+        </div>
+
+
+
+        <div class="food-container">
+
+
+
+            <!-- =================================================
+                 FOOD 1 - SMOKY BRISKET BURGER
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                    alt="Smoky Brisket Burger">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        BURGER
+                    </span>
+
+
+                    <h3>
+                        Smoky Brisket Burger
+                    </h3>
+
+
+                    <p>
+                        Juicy brisket, smoked cheese,
+                        fresh lettuce and a soft
+                        brioche bun.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹499
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Smoky Brisket Burger', 499)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 2 - TRUFFLE MUSHROOM PIZZA
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=600&q=80"
+                    alt="Truffle Mushroom Pizza">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        PIZZA
+                    </span>
+
+
+                    <h3>
+                        Truffle Mushroom Pizza
+                    </h3>
+
+
+                    <p>
+                        Pizza topped with mushrooms,
+                        herbs and creamy cheese.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹399
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Truffle Mushroom Pizza', 399)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 3 - HONEY HABANERO WINGS
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=600&q=80"
+                    alt="Honey Habanero Wings">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        CHICKEN
+                    </span>
+
+
+                    <h3>
+                        Honey Habanero Wings
+                    </h3>
+
+
+                    <p>
+                        Crispy chicken wings coated
+                        with a sweet and spicy glaze.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹349
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Honey Habanero Wings', 349)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 4 - LOADED GARLIC FRIES
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80"
+                    alt="Loaded Garlic Fries">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        SIDES
+                    </span>
+
+
+                    <h3>
+                        Loaded Garlic Fries
+                    </h3>
+
+
+                    <p>
+                        Crispy fries topped with
+                        cheese, garlic and fresh herbs.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹249
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Loaded Garlic Fries', 249)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 5 - SIZZLER BROWNIE
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=600&q=80"
+                    alt="Sizzler Brownie">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        DESSERT
+                    </span>
+
+
+                    <h3>
+                        Sizzler Brownie
+                    </h3>
+
+
+                    <p>
+                        Warm chocolate brownie served
+                        with vanilla ice cream and
+                        chocolate sauce.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹299
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Sizzler Brownie', 299)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 6 - CHOCOLATE MILKSHAKE
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80"
+                    alt="Chocolate Milkshake">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        DRINK
+                    </span>
+
+
+                    <h3>
+                        Chocolate Milkshake
+                    </h3>
+
+
+                    <p>
+                        Thick and creamy chocolate
+                        milkshake topped with
+                        whipped cream.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹199
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Chocolate Milkshake', 199)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 7 - CHICKEN SHAWARMA
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=600&q=80"
+                    alt="Chicken Shawarma">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        SHAWARMA
+                    </span>
+
+
+                    <h3>
+                        Chicken Shawarma
+                    </h3>
+
+
+                    <p>
+                        Tender chicken with fresh
+                        vegetables, creamy sauce
+                        and soft pita bread.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹249
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Chicken Shawarma', 249)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 8 - CLASSIC CHEESE BURGER
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80"
+                    alt="Classic Cheese Burger">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        BURGER
+                    </span>
+
+
+                    <h3>
+                        Classic Cheese Burger
+                    </h3>
+
+
+                    <p>
+                        Juicy grilled patty with melted
+                        cheese, fresh lettuce and
+                        special sauce.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹299
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Classic Cheese Burger', 299)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 9 - MARGHERITA PIZZA
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=600&q=80"
+                    alt="Margherita Pizza">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        PIZZA
+                    </span>
+
+
+                    <h3>
+                        Margherita Pizza
+                    </h3>
+
+
+                    <p>
+                        Classic pizza with mozzarella,
+                        tomato sauce and fresh basil.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹349
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Margherita Pizza', 349)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 10 - PANEER SHAWARMA
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80"
+                    alt="Paneer Shawarma">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        SHAWARMA
+                    </span>
+
+
+                    <h3>
+                        Paneer Shawarma
+                    </h3>
+
+
+                    <p>
+                        Grilled paneer with fresh
+                        vegetables, creamy sauce
+                        and soft wrap.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹229
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Paneer Shawarma', 229)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 11 - CREAMY ALFREDO PASTA
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=600&q=80"
+                    alt="Creamy Alfredo Pasta">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        PASTA
+                    </span>
+
+
+                    <h3>
+                        Creamy Alfredo Pasta
+                    </h3>
+
+
+                    <p>
+                        Creamy white sauce pasta with
+                        herbs, cheese and fresh vegetables.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹329
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Creamy Alfredo Pasta', 329)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 12 - LOADED CHEESE NACHOS
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=600&q=80"
+                    alt="Loaded Cheese Nachos">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        SIDES
+                    </span>
+
+
+                    <h3>
+                        Loaded Cheese Nachos
+                    </h3>
+
+
+                    <p>
+                        Crispy nachos loaded with melted
+                        cheese, jalapeños and fresh salsa.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹249
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Loaded Cheese Nachos', 249)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOD 13 - BROWNIE SUNDAE
+            ================================================== -->
+
+            <div class="food-card">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80"
+                    alt="Brownie Sundae">
+
+
+                <div class="food-info">
+
+
+                    <span class="food-category">
+                        DESSERT
+                    </span>
+
+
+                    <h3>
+                        Brownie Sundae
+                    </h3>
+
+
+                    <p>
+                        Warm brownie topped with vanilla
+                        ice cream, chocolate sauce and nuts.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+
+                        <strong>
+                            ₹279
+                        </strong>
+
+
+                        <button
+                            class="add-btn"
+                            onclick="addToCart('Brownie Sundae', 279)">
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SHOPPING CART
+    ====================================================== -->
+
+    <section class="cart" id="cart">
+
+
+        <div class="section-title">
+
+
+            <p>
+                Your Order
+            </p>
+
+
+            <h2>
+                SHOPPING <span>CART</span>
+            </h2>
+
+
+        </div>
+
+
+
+        <div class="cart-box">
+
+
+            <!-- CART ITEMS -->
+
+            <div id="cart-items">
+
+
+                <div class="empty-cart">
+
+
+                    <div class="cart-icon">
+                        🛒
+                    </div>
+
+
+                    <h3>
+                        Your cart is empty
+                    </h3>
+
+
+                    <p>
+                        Add some delicious food
+                        to your cart!
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- TOTAL -->
+
+            <div class="cart-total">
+
+
+                <span>
+                    TOTAL
+                </span>
+
+
+                <strong id="cart-total">
+                    ₹0
+                </strong>
+
+
+            </div>
+
+
+
+            <!-- CLEAR CART -->
+
+            <button
+                class="clear-button"
+                onclick="clearCart()">
+
+                CLEAR CART
+
+            </button>
+
+
+
+            <!-- CHECKOUT -->
+
+            <button
+                class="checkout-button"
+                onclick="checkout()">
+
+                PROCEED TO CHECKOUT
+
+            </button>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+
+        <div class="logo">
+            CRAVE<span>'D</span>
+        </div>
+
+
+        <p>
+            Good food. Good mood. Good memories. ❤️
+        </p>
+
+
+        <p class="copyright">
+            © 2026 Crave'd. All Rights Reserved.
+        </p>
+
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
